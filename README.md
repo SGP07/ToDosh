@@ -1,5 +1,8 @@
 # ToDosh
 
+[Click here for the AI-powered version](todo_ai.md)
+
+
 ## Overview
 
 This bash script, `todo.sh`, manages a simple todo list. Each task has a unique identifier, title, description, location, due date, and completion marker. The script allows users to create, update, delete, search for tasks, and list tasks based on their completion status and due date.
