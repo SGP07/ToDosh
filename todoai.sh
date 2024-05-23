@@ -46,13 +46,13 @@ response=$(curl -s -X POST "$api_url" \
 
 
 # Extract and print the message
-result=$(echo "$response" | jq -r '.choices[0].message.content')
+# result=$(echo "$response" | jq -r '.choices[0].message.content')
 
 message=$(echo "$result" | jq -r '.message')
 todo_list=$(echo "$result" | jq -r '.todo_list')
 
 # Print the message
-echo "Message: $message"
+echo "AI: $message"
 
 # Save the todo_list to todolist.json
 echo "$todo_list" > todo.json 
