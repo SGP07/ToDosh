@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "1716423067",
+    "title": "bake cookies",
+    "description": "bake chocolate chips cookies",
+    "location": "Kitchen",
+    "due_date": "2024-05-23",
+    "completed": true
+  },
+  {
+    "id": "1716426983",
+    "title": "study",
+    "description": "studying",
+    "location": "room",
+    "due_date": "2024-05-23",
+    "completed": false
+  }
+]
